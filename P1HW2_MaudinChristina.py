@@ -28,7 +28,7 @@ total_expenses = gas_expense + accommodation_expense + food_expense
 # Now subtract the expenses from the budget
 remaining_budget = budget - total_expenses
 
-# Step 8: Display results
+# Display results
 print("-------Travel Expenses--------")
 print(f"Location: {destination}")
 print(f"Initial Budget: ${budget}")
