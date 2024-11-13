@@ -26,7 +26,7 @@ print()
 total_expenses = gas_expense + accommodation_expense + food_expense
 
 # Now subtract the expenses from the budget
-remaining_budget = budget - total_expenses
+remaining_balance = budget - total_expenses
 
 # Display results
 print("-------Travel Expenses--------")
@@ -37,5 +37,5 @@ print(f"Fuel: ${gas_expense}")
 print(f"Accomodation: ${accommodation_expense}")
 print(f"Food: ${food_expense}")
 print()
-print(f"Remaining Budget: ${remaining_budget:,.2f}")
+print(f"Remaining Balance: ${remaining_balance:,.2f}")
 
